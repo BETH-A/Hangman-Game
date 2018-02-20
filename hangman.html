@@ -13,30 +13,60 @@
 
 </head>
 
-<body >
-<script src="assets/javascript/game3.js">
+<body class="text-center">
+
+    <script src="assets/javascript/game3.js">
     </script>
-    <div class="jumbotron">
-        <h1 class="display-4">Hangman
-        </h1>
-        <p class="lead text-danger"> Press any letter to start the game.</p>
-    </div>
+    <form class="form-signin">
 
-    <!-- <h1>Guess a letter</h1> -->
-    <!-- <input id="letter" type="text"> -->
-    <!-- <input type="button" value="letter" onclick="Letter()"/> -->
-    <!-- <p id="answer">
-    </p>
-    <p id="counter">
-    </p>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h1 class="card-title">Hangman</h1>
+                <h2 class="display-5">
+                    <strong>Big Cats</strong>
+                </h2>
+            </div>
 
-    <p id="stat">
-    </p> -->
+            <p id="you-win">
+                <strong></strong>
+            </p>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Word to Guess</h5>
+                <h3 id="word-blanks"></h3>
+                <div>
+                    <h1 class="h3 mb-3 font-weight-normal">Wrong Guesses:</h1>
+                    <span id="wrong-guesses"></span>
+                </div>
+
+                <div>
+                    <strong>Guesses Left: </strong>
+                    <span id="guesses-left"></span>
+                </div>
+
+            </div>
+        </div>
+
+        <h3 id="word-blanks"></h3>
 
 
 
+        <br>
+        <br>
+
+
+        <a href=index.html>
+            <button type="button" class="btn btn-danger">Play again</button>
+        </a>
+
+        <br><br>
+
+        <script type="text/javascript" src="assets/javascript/game3.js"></script>
 
 
 </body>
+
 
 </html>

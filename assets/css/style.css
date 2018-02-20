@@ -1,0 +1,19 @@
+body {
+    background: url(../images/bigcats4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.card {
+    align-self: center;
+    margin-left: 41%;
+    margin-top: 100px;
+}
+
+.jumbotron {
+    height: 150px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+
+}
