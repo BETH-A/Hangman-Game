@@ -35,7 +35,7 @@ function startGame(){
        console.log(randWord);
     }
 //Show '_' for each letter to be represented in the word
-document.getElementById("word-blanks").textContent = underScores.join(" _ ");
+    document.getElementById("word-blanks").textContent = underScores.join("  _  ");
  console.log("word-blanks");
 
 //Compare letter picked to word to be guessed
