@@ -52,8 +52,6 @@ function winLose() {
         alert("Congratulations! You won!");
         //console.log(dashes)
         console.log(i = randomWordLength)
-
-
     } else if (guessesRemaining === 0) {
         document.getElementById("guessesRemaining").textContent = guessesRemaining;
         alert("I can't believe you couldn't guess the word, " + randomWord + "! You lose.");
@@ -66,9 +64,7 @@ document.onkeyup = function (event) {
 
     if (randomWord.indexOf(userGuesses) > -1) {
         for (var i = 0; i < randomWord.length; i++) {
-
             if (randomWord[i] === userGuesses) {
-
                 dashes[i] = userGuesses;
                 document.getElementById("blanks").textContent = dashes.join(" ");
                 // console.log(dashes);
